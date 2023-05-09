@@ -65,5 +65,5 @@ stylelint
         );
 
         // Записываем результат в новый файл .stylelintignore.optimized
-        fs.writeFileSync(".stylelintignore.optimized", newIgnoreList.join("\n"));
+        fs.writeFileSync(".stylelintignore", newIgnoreList.join("\n"));
     });
